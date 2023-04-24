@@ -1,4 +1,4 @@
-package dev.mcabsan
+package dev.mcabsan.fizzbuzz
 
 object Helpers {
   def callWhenIsDivisibleBy(divisor: Int, callback: Int => String): PartialFunction[Int, String] =

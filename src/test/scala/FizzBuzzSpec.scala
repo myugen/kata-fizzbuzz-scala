@@ -1,4 +1,4 @@
-package dev.mcabsan
+package dev.mcabsan.fizzbuzz
 
 import org.scalatest.funspec.AnyFunSpec
 import org.scalatest.funsuite.AnyFunSuite

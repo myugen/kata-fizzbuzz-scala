@@ -1,4 +1,4 @@
-package dev.mcabsan
+package dev.mcabsan.fizzbuzz
 
 object BuzzRules {
   private val BUZZ = "buzz"

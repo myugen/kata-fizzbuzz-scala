@@ -1,4 +1,4 @@
-package dev.mcabsan
+package dev.mcabsan.fizzbuzz
 
 def fizzbuzz = (n: Int) => Seq(FizzRules.whenDivisibleByThree,
   FizzRules.whenContainsThree,

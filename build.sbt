@@ -5,7 +5,7 @@ ThisBuild / scalaVersion := "3.2.2"
 lazy val root = (project in file("."))
   .settings(
     name := "kata-fizzbuzz-scala",
-    idePackagePrefix := Some("dev.mcabsan")
+    idePackagePrefix := Some("dev.mcabsan.fizzbuzz")
   )
 
 libraryDependencies ++= Seq(
