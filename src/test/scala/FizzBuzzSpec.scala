@@ -15,8 +15,16 @@ class FizzBuzzSpec extends AnyFunSpec with Matchers {
       Case("should show fizzfizz when number is divisible by 3 and contains 3", 3, "fizzfizz"),
       Case("return buzz when number is divisible by 5", 20, "buzz"),
       Case("return buzzbuzz when number is divisible by 5 and contains 5", 5, "buzzbuzz"),
-      Case("return fizzbuzzbuzz when number is divisible by 3 and 5 and contains 5", 15, "fizzbuzzbuzz"),
-      Case("return fizzfizzbuzz when number is divisible by 3 and 5 and contains 3", 30, "fizzfizzbuzz"),
+      Case(
+        "return fizzbuzzbuzz when number is divisible by 3 and 5 and contains 5",
+        15,
+        "fizzbuzzbuzz"
+      ),
+      Case(
+        "return fizzfizzbuzz when number is divisible by 3 and 5 and contains 3",
+        30,
+        "fizzfizzbuzz"
+      )
     ).foreach { cases =>
       it(cases.name) {
         fizzbuzz(cases.input) should be(cases.expected)
